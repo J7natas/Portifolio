@@ -99,13 +99,34 @@ div a:hover::after{
     margin-left: 12rem;
 }
 
-.area-projetos a:hover {
-    transform: scale(1.2);
-}
 .area-projetos {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.area-projetos .card img {
+    border-radius: 5px;
+}
+
+.area-projetos .card img:hover {
+    height: 200px;
+}
+
+.area-projetos .card-body {
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.area-projetos .card-body h5 {
+    margin-bottom: 10px;
+}
+
+.area-projetos a:hover {
+    transform: scale(1.1);
 }
 
 .area-projetos a {
