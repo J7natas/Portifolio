@@ -90,13 +90,17 @@ div a:hover::after{
 }
 
 .foto {
-    width: 190px;
-    height: 250px;
-    background-color: rgb(11, 11, 11);
-    border-radius: 60px;
+    width: 300px;
+    border-radius: 100%;
     position: absolute;
     margin-top: -25rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.foto img {
+    width: 250px;
+    border-radius: 200px;
 }
 
 .area-projetos {
@@ -254,7 +258,6 @@ i {
     }
 
     .foto {
-        background-color: rgb(11, 11, 11);
         margin-top: -20rem;
         margin-left: 8rem;
     }
@@ -297,7 +300,6 @@ i {
     }
 
     .foto {
-        background-color: rgb(11, 11, 11);
         margin-top: -25rem;
         margin-left: 12rem;
     }
